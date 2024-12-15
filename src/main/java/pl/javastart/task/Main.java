@@ -28,10 +28,11 @@ public class Main {
 
         product4.showinfo();
 
-        Product product5 = new Product("Dowolny produkt","ze zniżką",(double) 0/20);
+        Product product5 = new Product("Dowolny produkt","ze zniżką",2);
 
         SpecialOffer specialOffer = new SpecialOffer("Do wygrania kupon zniżkowy na dowolny produkt.Do otrzymania przy zakupach za minimum 20zł","Oferta ważna od 01.12.2024 - 01.01.2025",20);
         specialOffer.anyProduct = product5;
         specialOffer.print();
+
     }
 }
